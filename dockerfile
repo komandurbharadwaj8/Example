@@ -9,5 +9,5 @@ CMD ["nginx", "-g", "daemon off;"]
 
 
 # Copy the HTML page to the NGINX document root
-COPY ./home/user/example_nginx/index.html /usr/share/nginx/html
+COPY /home/user/second_nginx/sample.html /usr/share/nginx/html
 
